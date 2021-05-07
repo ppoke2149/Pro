@@ -1,0 +1,90 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif; 
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    color: black;
+}
+
+/*  */
+.main_text{
+    width: 100%;
+    height: 604px;
+    margin-top: 190px;
+}
+
+.main_text > h1{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: -80px;
+
+}
+
+.container{
+    width: 1470px;
+    margin: 100px auto 0px;
+}
+
+.box{
+    float: left;
+    width: 255px;
+    height: 1px;
+    margin: 0 100px;
+    position: relative;
+}
+/* 이미지 텍스트 */
+.box_text0{
+    position: relative;
+    top: -480px;
+    left: 87.5px;
+}
+.box_text1{
+    position: relative;
+    top: -480px;
+    left: 63.5px;
+}
+.box_text0 > h4,
+.box_text1 > h4{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+/* 이미지 이동 */
+.front{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.back{
+    position: relative;
+    top: -517px;
+    left: 35px;
+}
+/* 
+    display: flex;
+    width: 1500px;
+    height: 302px;
+    margin: auto;
+}
+
+.select > li{
+    flex: 1;
+    background: white;
+    margin-top: 120px;
+    height: 500px;
+    text-align: center;
+}
+
+.select .contents0{
+
+    margin: auto;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ */

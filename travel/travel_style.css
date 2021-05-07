@@ -1,0 +1,98 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif; 
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    color: black;
+}
+/* 버튼  */
+
+.button_ui > a > img{
+    width:  100%;
+}
+.button_ui{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px; 
+}
+
+.travel_main{
+    width: 100%;
+    height: 604px;
+    margin-top: 10px;
+}
+
+.travel_main > h1{
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.container{
+    width: 1470px;
+    margin: 100px auto 0px;
+
+}
+
+.box{
+    float: left;
+    width: 255px;
+    height: 1px;
+    margin: 0 210px;
+    position: relative;
+}
+
+/* 이미지 이동 */
+.front{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.back{
+    position: relative;
+    top: -517px;
+    left: 35px;
+}
+
+.travel_box_text0{
+    position: relative;
+    top: -500px;
+    left: 105px;
+}
+
+.travel_box_text1{
+    position: relative;
+    top: -500px;
+    left: 60px;
+}
+
+.travel_box_text0 > h4,
+.travel_box_text1 > h4{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+
+.like_box_text0{
+    position: relative;
+    top: -485px;
+    left: 140px;
+}
+.like_box_text1{
+    position: relative;
+    top: -485px;
+    left: 145px;
+}
+.like_box_text0 > h4{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.like_box_text1 > h4{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
