@@ -13,13 +13,13 @@
 .main_text{
     width: 100%;
     height: 604px;
-    margin-top: 190px;
+    margin-top: -160px;
 }
 
-.main_text > h1{
+.container >.main_text > h1{
     text-align: center;
     letter-spacing: 1px;
-    margin-top: -80px;
+    padding: 130px;
 
 }
 
@@ -32,7 +32,7 @@
     float: left;
     width: 255px;
     height: 1px;
-    margin: 0 10px;
+    margin: 0 100px;
     position: relative;
 }
 /* 이미지 텍스트 */
